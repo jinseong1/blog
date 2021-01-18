@@ -6,21 +6,20 @@
 		<!-- Menu -->
 		<nav id="menu">
 			<ul>
-				<li><a href="/">Home</a></li>
+				<li><a href="/">HOME</a></li>
+				<li><a href="/">Daily routine</a></li>
+				<li><a href="/">famous restaurant</a></li>
+				<li><a href="/">advertisement</a></li>
+				<li><span class="opener">The Bible</span>
+					<ul>
+						<li><a href="#">개발중...</a></li>
+						<li><a href="#">개발중...</a></li>
+						<li><a href="#">개발중...</a></li>
+					</ul>
+				</li>				
 				<li><a href="/move/simple_page">Simple Page</a></li>
 				<li><a href="/move/short_codes">Shortcodes</a></li>
-				<li><span class="opener">Dropdown One</span>
-					<ul>
-						<li><a href="#">First Sub Menu</a></li>
-						<li><a href="#">Second Sub Menu</a></li>
-						<li><a href="#">Third Sub Menu</a></li>
-					</ul></li>
-				<li><span class="opener">Dropdown Two</span>
-					<ul>
-						<li><a href="#">Sub Menu #1</a></li>
-						<li><a href="#">Sub Menu #2</a></li>
-						<li><a href="#">Sub Menu #3</a></li>
-					</ul></li>
+				<li><a href="/move/login">LOGIN</a></li>
 			</ul>
 		</nav>
 

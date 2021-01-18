@@ -6,6 +6,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping(value = "/move")
 public class MoveController {
+
+	@RequestMapping(value = "/login")
+	public String move_login() {
+		return "/login/login";
+	}	
 	
 	@RequestMapping(value = "/short_codes")
 	public String move_short_codes() {

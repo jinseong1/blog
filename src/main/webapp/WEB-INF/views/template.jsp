@@ -12,8 +12,8 @@
 <meta name="author" content="">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 
-    <%@include file="common/title.jsp" %>
-    <%@include file="common/css.jsp" %>
+    <%@include file="/WEB-INF/views/common/title.jsp" %>
+    <%@include file="/WEB-INF/views/common/css.jsp" %>
 
 </head>
 
@@ -27,7 +27,7 @@
 			<div class="inner">
 
 				<!-- header start -->
-				<%@include file="common/header.jsp"%>
+				<%@include file="/WEB-INF/views/common/header.jsp"%>
 				<!-- header end -->
                 
                 <!-- body start -->
@@ -37,7 +37,7 @@
 		</div>
 
 		<!-- menu start -->
-		<%@include file="common/menu.jsp"%>
+		<%@include file="/WEB-INF/views/common/menu.jsp"%>
 		<!-- menu end -->
 
 	</div>
